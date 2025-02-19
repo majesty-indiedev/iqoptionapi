@@ -2,12 +2,20 @@
 "Module for IQ Option API constants."
 ""#~~~need to update~~~
 ACTIVES = {
-	"EURUSD": 1,
-	"EURGBP": 2,
-	"GBPJPY": 3,
-	"EURJPY": 4,
-	"GBPUSD": 5,
-	"USDJPY": 6,
+	# "EURUSD": 1,
+	# "EURGBP": 2,
+	# "GBPJPY": 3,
+	# "EURJPY": 4,
+	# "GBPUSD": 5,
+	# "USDJPY": 6,
+
+	"EURUSD": 1861,
+	"EURGBP": 1862,
+	"GBPJPY": 1866,
+	"EURJPY": 1864,
+	"GBPUSD": 1867,
+	"USDJPY": 1865,
+
 	"AUDCAD": 7,
 	"NZDUSD": 8,
 	"USDRUB": 10,
