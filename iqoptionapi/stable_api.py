@@ -916,7 +916,7 @@ class IQ_Option:
         while self.api.result == None or id == None:
             try:
                 if "message" in self.api.buy_multi_option[req_id].keys():
-                    return False, self.api.buy_multi_option[req_id]["message"]
+                    return False, self.api.buy_multi_option[req_id]["message"],self.api.buy_multi_option 
             except:
                 pass
             try:
