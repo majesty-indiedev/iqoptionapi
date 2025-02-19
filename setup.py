@@ -3,14 +3,14 @@ from setuptools import (setup, find_packages)
 from iqoptionapi.version_control import api_version
 
 setup(
-    name="iqoptionapi",
+    name="yhaps-iqoptionapi",
     version=api_version,
     packages=find_packages(),
     install_requires=["pylint", "requests", "websocket-client==0.56"],
     include_package_data=True,
-    description="Best IQ Option API for python",
-    long_description="Best IQ Option API for python",
-    url="https://github.com/iqoptionapi/iqoptionapi",
-    author="Rafael Faria",
+    description="IQ Option API Fork By Yhaps",
+    long_description="Most updated IQ Option wrapper for Python",
+    url="https://github.com/majesty-indiedev/iqoptionapi",
+    author="M.H",
     zip_safe=False
 )
